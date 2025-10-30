@@ -18,7 +18,8 @@ export default async function PokedexLayout() {
 
 
                 <aside className="flex flex-row !bg-pokedex-red-1 
-            rounded-tl-4xl rounded-bl-4xl !p-0  border-l-2 border-l-red-200 w-1/2 h-3/4 md:w-1/4 ">
+            rounded-tl-4xl rounded-bl-4xl !p-0  
+            border-l-2 border-l-red-200 w-2/3 h-3/4 md:w-1/4 ">
  <TopLeftComponent />
                     {/* <div>
                         <TopLeftComponent />
@@ -39,7 +40,8 @@ export default async function PokedexLayout() {
                     {/* <aside className=" flex flex-col justify-end w-1/2 h-9/12" > */}
 
                     <div className="flex flex-row !bg-pokedex-red-1 
-                    rounded-tr-4xl rounded-br-4xl !p-0  border-b-4 border-r-4 border-red-300 w-full h-11/12  ">
+                    rounded-tr-4xl rounded-br-4xl !p-0  border-b-4 border-r-4
+                     border-red-300 w-full h-11/12  ">
 
                         {/* <TopRightComponent /> */}
 
