@@ -26,28 +26,39 @@ export function BrownDisplays() {
 
 export function TopLeftComponent() {
     return (
-        <div className="h-30 flex row justify-between ">
-            <div className="flex-col">
-                < div className="flex flex-row w-70 gap-4 h-30 bg-pokedex-red-2 clip-cut-bottom-right rounded-tl-4xl p-4 border-b-3  border-b-red-400 border-l-4 border-l-red-200 " >
-                    <XLButton />
-                    <XSButtons />
-                </div >
+        <div className="h-full flex row justify-between flex-1 bg-orange-300  w-full">
+            <div className="flex-col w-[80%]">
 
-                <div className="w-41 h-1.5 border-b-4 border-pokedex-red-3 m-2 "></div>
-                <div className="relative left-43 bottom-22.5 w-27 h-26 bg-pokedex-red-3 clip-cut-top-left"></div>
+                <div className="flex-1 bg-green-200 flex row h-[15%]">
+                      
+                < div className="flex flex-row gap-4 h-full bg-pokedex-red-2 
+                clip-cut-bottom-right rounded-tl-4xl p-4 border-b-3  border-b-red-400 
+                border-l-4 border-l-red-200 w-3/4 " >
+                     
+                    {/* <XLButton />
+                    <XSButtons /> */}
+                     
+                </div >
+           <div className=" bg-pokedex-red-2 w-1/3 h-[35%]"></div>
+
+                </div>
+
+             
+                {/* <div className="w-41 h-1.5 border-b-4 border-pokedex-red-3 m-2 "></div> */}
+                {/* <div className="relative left-43 bottom-22.5 w-27 h-26 bg-pokedex-red-3 clip-cut-top-left"></div>
                 <div className="relative left-43 bottom-47.5 w-27 h-26 bg-pokedex-red-1 clip-cut-top-left"></div>
-                <div className="w-25 h-26 relative left-69.5 bottom-74 border-t-4 border-pokedex-red-3 border-r-4"></div>
+                <div className="w-25 h-26 relative left-69.5 bottom-74 border-t-4 border-pokedex-red-3 border-r-4"></div> */}
             </div>
 
-            <div className="justify-end w-50 flex col " >
-                <div className="w-30  h-10 border-b-3  border-red-300 bg-pokedex-red-2"></div>
+            <div className="justify-end flex col  bg-pokedex-red-2 w-[20%] " >
+                {/* <div className=" h-10 border-b-3  border-red-300 bg-pokedex-red-4"></div> */}
 
-                <div className="w-26">
+                {/* <div className="w-26">
                     <div className="w-15 h-10 border-red-300 border-r-6 bg-pokedex-red-2 "></div>
                     <div className="w-15 h-20.5 bg-pokedex-red-2 border-b-pokedex-red-4 border-b-3 border-r-red-300 border-l-pokedex-red-3 border-l-7 border-r-6"></div>
                     <div className=" w-15 h-117.5 bg-pokedex-red-2 border-l-7 border-r-6 border-l-pokedex-red-3 border-r-red-300"></div>
                     <div className="w-15 h-20.5 bg-pokedex-red-2 border-t-pokedex-red-4 border-t-3 border-r-red-300 border-l-pokedex-red-3 border-l-7 border-r-6"></div>
-                </div>
+                </div> */}
             </div>
         </div >
     )
