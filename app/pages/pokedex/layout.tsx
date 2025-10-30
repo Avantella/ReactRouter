@@ -12,13 +12,13 @@ export default async function PokedexLayout() {
     const data = useLoaderData<typeof loader>();
 
     return (
-        <main className="!flex-row flex justify-center flex-1 mt-20 bg-amber-100 h-dvh">
+        <main className="!flex-row flex justify-center flex-1 mt-[10%] md:mt-[5%] h-dvh">
 
-            <div className="flex-row justify-evenly w-full flex bg-amber-700 m-4">
+            <div className="flex-row justify-evenly w-full flex  m-4 md:justify-center">
 
 
                 <aside className="flex flex-row !bg-pokedex-red-1 
-            rounded-tl-4xl rounded-bl-4xl !p-0  border-l-2 border-l-red-200 w-1/2 h-3/4 ">
+            rounded-tl-4xl rounded-bl-4xl !p-0  border-l-2 border-l-red-200 w-1/2 h-3/4 md:w-1/4 ">
  <TopLeftComponent />
                     {/* <div>
                         <TopLeftComponent />
@@ -34,7 +34,7 @@ export default async function PokedexLayout() {
                 </aside>
 
                 <aside className=" flex flex-col justify-end !bg-pokedex-red-4 
-           w-1/2 h-3/4  ">
+           w-1/2 h-3/4  md:w-1/4 ">
 
                     {/* <aside className=" flex flex-col justify-end w-1/2 h-9/12" > */}
 

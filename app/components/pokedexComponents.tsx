@@ -26,7 +26,7 @@ export function BrownDisplays() {
 
 export function TopLeftComponent() {
     return (
-        <div className="h-full flex row justify-between flex-1 bg-orange-300  w-full">
+        <div className="h-full flex row justify-between flex-1  w-full">
             <div className="flex-col w-[80%]">
 
                 <div className="flex-1 bg-green-200 flex row h-[15%]">
@@ -39,7 +39,7 @@ export function TopLeftComponent() {
                     <XSButtons /> */}
                      
                 </div >
-           <div className=" bg-pokedex-red-2 w-1/3 h-[35%]"></div>
+           <div className=" bg-pokedex-red-2 w-1/3 h-[35%]  border-red-3"></div>
 
                 </div>
 
